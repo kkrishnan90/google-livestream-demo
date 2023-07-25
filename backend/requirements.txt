@@ -1,0 +1,4 @@
+google-cloud-video-live-stream
+fastapi [all]
+requests-oauth2client
+
