@@ -162,7 +162,6 @@ def create_channel_event(
     return response
 
 
-# FIXME: API CODE START
 app = FastAPI()
 origins = [
     "*"
@@ -331,6 +330,3 @@ async def getChannel(channel_id):
     response = get_channel(project_id=PROJECT_ID,
                            location=LOCATION, channel_id=channel_id)
     return response
-
-
-# FIXME: API CODE END
